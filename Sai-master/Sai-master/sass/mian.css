@@ -1,0 +1,371 @@
+* {
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none; }
+
+html {
+  font-family: sans-serif;
+  text-size-adjust: 100%; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: "Videopac" url("../../font/Videopac.ttf");
+  font-family: "Plaster of Paris" url("../../font/Plaster of Paris.ttf");
+  font-family: "FANCY" url("../../font/FANCY.ttf"); }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0; }
+
+.header {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #323232; }
+
+.logo {
+  padding-left: 1em;
+  opactiy: 0.9; }
+
+.logo {
+  font-size: 50px;
+  font-family: 'Videopac';
+  text-align: center; }
+
+.ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  color: #ffffff; }
+  .ul li {
+    padding: 20px 0;
+    margin: 0;
+    text-align: center; }
+  .ul a {
+    color: #d7d7d7;
+    margin: 0;
+    padding: 0 2em;
+    padding-top: 1em;
+    padding-bottom: 1em; }
+
+.ul li:hover {
+  background-color: #c3c3c4;
+  color: #303030; }
+
+@font-face {
+  font-family: "Videopac Italic" url("../../font/Videopac Italic.ttf"); }
+.content {
+  background-color: #e8e8e8; }
+
+.banner {
+  display: flex;
+  justify-content: center;
+  background-image: url(../image/banner_3.png);
+  background-position: center center;
+  background-size: cover;
+  height: 380px;
+  align-items: center; }
+
+.banner .imagetext {
+  padding: 1em;
+  border: 2px solid #bfbebe;
+  text-shadow: 2px 1px 2px #515151;
+  opacity: 0.8;
+  font-family: 'KaiTi';
+  font-size: 2em;
+  color: #bfbebe;
+  text-align: center; }
+  .banner .imagetext #Sai {
+    font-family: 'Videopac'; }
+
+img {
+  max-width: 100%; }
+
+.abstract {
+  background-color: #c9c9c9;
+  font-family: arial, "LiSu";
+  text-shadow: 0.5px 0.5px 0.5px #232323;
+  text-align: center; }
+
+.abstract_title {
+  display: flex;
+  text-align: left;
+  opacity: 0.7;
+  font-size: 30px;
+  margin-top: 1em;
+  margin-right: 0;
+  margin-left: 3em;
+  font-weight: normal; }
+
+.abstract_content {
+  padding: 1em;
+  font: normal; }
+  .abstract_content .text {
+    font-size: 20px;
+    margin-left: 2em;
+    text-align: left; }
+
+.abstract_image {
+  width: 80%;
+  display: inline-block; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+.aboutme {
+  padding-top: 2em;
+  background-color: #c9c9c9; }
+
+.famous {
+  margin: 0;
+  font-family: sans-serif, "FZKai-Z03S"; }
+  .famous .famous_content {
+    text-shadow: 0 0 0 #c9c9c9; }
+  .famous .famous_footer {
+    margin-right: 3em; }
+
+p {
+  marign: 0 auto; }
+
+.my_info {
+  font-family: Microsoft YaHei;
+  margin-left: 4em;
+  margin-bottom: 2em; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal; }
+
+.info_contain {
+  margin: 0 auto; }
+
+.my_form {
+  padding-bottom: 3em;
+  margin-left: 4em; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal; }
+
+label {
+  font-size: 1em; }
+
+input,
+textarea {
+  display: block; }
+
+textarea {
+  resize: none;
+  width: 40%;
+  height: 5em; }
+
+.my_form input {
+  width: 40%;
+  height: 2.5em; }
+
+.divide {
+  margin: 5em 1em;
+  position: relative; }
+  .divide .hr_contact {
+    background-color: #e8e8e8; }
+  .divide .hr_aboutme {
+    background-color: #c9c9c9; }
+
+.hr {
+  width: 100%;
+  display: inline-block;
+  height: 1px;
+  vertical-align: middle;
+  background-color: gray;
+  margin: 1em 0; }
+
+.hr_title {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+  background-color: #c9c9c9;
+  font-size: 1.7em; }
+
+@media screen and (max-width: 500px) {
+  .divide {
+    margin: 2em 1em; } }
+.footer {
+  height: 200px;
+  background-color: #323232; }
+  .footer .footer_title {
+    padding-top: 0.7em;
+    padding-bottom: 0.3em;
+    color: #ffffff;
+    font-size: 2.5em;
+    text-align: center; }
+  .footer .footer_button {
+    margin: 1em auto;
+    margin-bottom: 1em;
+    text-align: center; }
+    .footer .footer_button a {
+      font-size: 20px;
+      margin: 0 1em;
+      padding: 15px 25px;
+      border: 2px solid white;
+      border-radius: 10px;
+      color: white; }
+    .footer .footer_button a:hover {
+      background-color: #545454;
+      transition: 0.3s; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; }
+
+.box {
+  margin: 0;
+  padding: 0; }
+
+.box img {
+  margin: 3px;
+  padding: 2px;
+  display: inline-flex;
+  height: 200px; }
+
+.box img:hover {
+  opacity: 0.8;
+  transition: 0.7s;
+  transition-timing-function: ease-out; }
+
+@media screen and (max-width: 500px) {
+  .box img {
+    height: 100px; } }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0; }
+
+@media screen and (max-width: 500px) {
+  @font-face {
+    font-family: "Videopac Italic" url("../../font/Videopac Italic.ttf"); }
+  .header {
+    background-color: #323232;
+    height: 288px;
+    display: block; }
+
+  .logo {
+    align-items: center;
+    padding-left: 1em;
+    font-size: 50px;
+    font-family: 'Videopac';
+    text-shadow: 0.5px 0px 8px #ffffff;
+    text-align: center; }
+
+  ul {
+    display: flex;
+    padding: 0;
+    flex-direction: column; }
+    ul li {
+      font-size: 1em;
+      padding: 1em 0;
+      width: 100%;
+      margin: 0;
+      text-align: center; }
+    ul a {
+      width: 100%;
+      color: white; }
+    ul li:hover {
+      font-family: 'FANCY';
+      background-color: #4f4f4f;
+      color: #ffffff; }
+
+  .content {
+    background-color: #e8e8e8; }
+
+  .banner {
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    background-image: url(../image/banner_3.png);
+    background-position: center center;
+    background-size: cover;
+    align-items: center; }
+
+  .banner .imagetext {
+    padding: 1em;
+    border: 2px solid #bfbebe;
+    text-shadow: 2px 1px 2px #515151;
+    opacity: 0.8;
+    font-family: 'KaiTi';
+    font-size: 2em;
+    color: #bfbebe;
+    text-align: center; }
+    .banner .imagetext #Sai {
+      font-family: 'Videopac'; }
+
+  img {
+    max-width: 100%; }
+
+  .abstract {
+    background-color: #c9c9c9;
+    font-family: arial, "LiSu";
+    text-shadow: 0.5px 0.5px 0.5px #232323;
+    text-align: center; }
+
+  .abstract_title {
+    display: flex;
+    text-align: left;
+    opacity: 0.7;
+    font-size: 30px;
+    margin-top: 1em;
+    margin-right: 0;
+    margin-left: 3em;
+    font-weight: normal; }
+
+  .abstract_content {
+    padding: 1em;
+    font: normal; }
+    .abstract_content .text {
+      font-size: 20px;
+      margin-left: 2em;
+      text-align: left; }
+
+  .my_form textarea {
+    resize: none;
+    width: 90%;
+    height: 5em; }
+
+  .my_form input {
+    width: 90%;
+    height: 2.5em; } }
+
+/*# sourceMappingURL=mian.css.map */

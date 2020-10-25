@@ -1,0 +1,135 @@
+//全局设置
+@import "overall/overall";
+@import "nav/nav";
+@import "content/content";
+@import "content/form";
+@import "tool/tool";
+@import "footer/footer";
+@import "PicFall/PicFall";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 500px) {
+
+    @font-face {
+        font-family: 'Videopac Italic' url("../../font/Videopac Italic.ttf");
+    }
+    .header {
+        background-color: #323232;
+        height: 288px;
+        display: block;
+
+    }
+
+
+    .logo {
+
+        align-items: center;
+        padding-left: 1em;
+        font-size: 50px;
+        font-family: 'Videopac';
+        text-shadow: 0.5px 0px 8px #ffffff;
+        text-align: center;
+    }
+    ul {
+        display: flex;
+        padding: 0;
+        flex-direction: column;
+        li {
+            font-size: 1em;
+            padding: 1em 0;
+            width: 100%;
+            margin: 0;
+            text-align: center;
+        }
+        a {
+            width: 100%;
+            color: white;
+        }
+        li:hover {
+            font-family: 'FANCY';
+            background-color: #4f4f4f;
+            color: #ffffff;
+        }
+
+    }
+    .content {
+        background-color: #e8e8e8;
+    }
+
+    .banner {
+        height: 380px;
+        display: flex;
+        justify-content: center;
+        background-image: url(../image/banner_3.png);
+        background-position: center center;
+        background-size: cover;
+        align-items: center;
+    }
+
+    .banner .imagetext {
+        padding: 1em;
+        border: 2px solid #bfbebe;
+        text-shadow: 2px 1px 2px #515151;
+        opacity: 0.8;
+        font-family: 'KaiTi';
+        font-size: 2em;
+        color: #bfbebe;
+        text-align: center;
+        #Sai {
+            font-family: 'Videopac';
+        }
+    }
+    img {
+        max-width: 100%;
+    }
+    .abstract {
+        background-color: #c9c9c9;
+        font-family: arial, "LiSu";
+        text-shadow: 0.5px 0.5px 0.5px #232323;
+        text-align: center; //    background-color: white;
+    }
+    .abstract_title {
+        display: flex;
+        text-align: left;
+        opacity: 0.7;
+        font-size: 30px;
+        margin-top: 1em;
+        margin-right: 0;
+        margin-left: 3em; //    text-align: left;
+        font-weight: normal;
+    }
+    .abstract_content {
+        //    float: left;
+        //    width: 70%;
+        padding: 1em;
+        font: normal;
+        .text {
+            font-size: 20px;
+            margin-left: 2em;
+            text-align: left;
+        }
+    }
+    .my_form {
+        textarea {
+            resize: none;
+            width: 90%;
+            height: 5em;
+
+
+        }
+    }
+    .my_form input {
+
+        width: 90%;
+        height: 2.5em;
+    } //    media end
+}

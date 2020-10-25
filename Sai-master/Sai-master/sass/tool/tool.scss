@@ -1,0 +1,37 @@
+.divide {
+    margin: 5em 1em;
+    //    margin-top: 5em;
+    //    margin-bottom: 1em;
+    position: relative;
+    .hr_contact {
+        background-color: #e8e8e8;
+    }
+    .hr_aboutme {
+        background-color: #c9c9c9;
+    }
+}
+
+.hr {
+    width: 100%;
+    display: inline-block;
+    height: 1px;
+    vertical-align: middle;
+    background-color: gray;
+    margin: 1em 0;
+}
+
+.hr_title {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+    background-color: #c9c9c9;
+    font-size: 1.7em;
+}
+
+@media screen and (max-width: 500px) {
+    .divide {
+        margin: 2em 1em;
+    }
+}

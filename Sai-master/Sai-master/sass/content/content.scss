@@ -1,0 +1,111 @@
+//.contact {
+//    display: flex;
+//    width: 80%;
+//    height: 400px;
+//    margin: 0 auto;
+//}
+@font-face {
+    font-family: 'Videopac Italic' url("../../font/Videopac Italic.ttf");
+}
+
+.content {
+    background-color: #e8e8e8;
+}
+
+.banner {
+    //position: absolute;\
+    display: flex;
+    justify-content: center; //    flex-wrap: wrap;
+    background-image: url(../image/banner_3.png);
+    background-position: center center;
+    background-size: cover;
+    height: 380px;
+    align-items: center;
+}
+
+.banner .imagetext {
+    padding: 1em;
+    border: 2px solid #bfbebe;
+    text-shadow: 2px 1px 2px #515151;
+    opacity: 0.8;
+    font-family: 'KaiTi';
+    font-size: 2em;
+    color: #bfbebe;
+    text-align: center;
+    #Sai {
+        font-family: 'Videopac';
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+//.image {
+//    margin: 10px;
+//    display: flex;
+//    background-size: contain;
+//}
+.abstract {
+    background-color: #c9c9c9;
+    font-family: arial, "LiSu";
+    text-shadow: 0.5px 0.5px 0.5px #232323;
+    text-align: center; //    background-color: white;
+}
+
+.abstract_title {
+    display: flex;
+    text-align: left;
+    opacity: 0.7;
+    font-size: 30px;
+    margin-top: 1em;
+    margin-right: 0;
+    margin-left: 3em; //    text-align: left;
+    font-weight: normal;
+}
+
+.abstract_content {
+    //    float: left;
+    //    width: 70%;
+    padding: 1em;
+    font: normal;
+    .text {
+        font-size: 20px;
+        margin-left: 2em;
+        text-align: left;
+    }
+}
+
+.abstract_image {
+    width: 80%;
+    display: inline-block; //    position: relative;
+    //    top: -50px;
+    //    margin: 0;
+    //    margin-bottom: 4em;
+    //    float: right;
+    //    width: 30%;
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.aboutme {
+    padding-top: 2em;
+    background-color: #c9c9c9;
+}
+
+.famous {
+    margin: 0;
+    font-family: sans-serif, "FZKai-Z03S";
+    .famous_content {
+        text-shadow: 0 0 0 #c9c9c9;
+    }
+    .famous_footer {
+        //        text-align: right;
+        margin-right: 3em;
+    }
+}
